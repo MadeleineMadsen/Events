@@ -1,0 +1,34 @@
+{% include "_header.html" %}
+
+<main id="login" class="page"
+mix-url="/login"
+mix-top="body"
+mix-title="{{ title | default('Company') }}"
+mix-hide=".page"
+mix-show="#login">
+
+    {% include "_nav.html" %}
+    <h1>
+        Login
+    </h1>
+    <form mix-post="/login">             
+        <div>
+            <label for="">
+                <span>email</span>
+                <span></span>
+            </label>
+            <input name="user_email" type="text" mix-check="{{ x.USER_EMAIL_REGEX }}">
+        </div>
+
+        <div>
+            <label for="">
+                <span>password</span>
+            </label>
+            <input name="user_password" type="password" mix-check="{{ x.USER_PASSWORD_REGEX }}">
+        </div>   
+
+        <button mix-await="Please wait..." mix-default="Login">Login</button>
+    </form>
+</main>
+
+{% include "_footer.html" %}
