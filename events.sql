@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Vært: mysql
--- Genereringstid: 08. 04 2025 kl. 08:35:53
+-- Genereringstid: 08. 04 2025 kl. 08:52:48
 -- Serverversion: 9.2.0
 -- PHP-version: 8.2.27
 
@@ -48,8 +48,8 @@ INSERT INTO `items` (`item_pk`, `item_name`, `item_address`, `item_price`, `item
 ('5308e37a-53de-4b1f-960f-28757327ee40', 'Bright & Black live 2025', 'Det Kongelige Teater, København K', 550.00, '4.webp', 'Bright & Black featuring Eicca Toppinen, Kristjan Järvi og Nordic Pulse Orchestra præsenterer en enestående optræden, der fusionerer orkestral musik og moderne energiske beats for en mindeværdig koncertoplevelse.', '2025-05-12', '12.58639433963918', '55.679775706251405'),
 ('e4c2995c-884a-4bba-86f9-7687db6cc4a7', 'COPENHELL 2025', 'Refshaleøen, København', 2749.95, '5.webp', 'COPENHELL 2025 samler metalfans fra hele verden til den største metalfestival i Danmark. Forbered dig på intense live shows fra både internationale og lokale metalbands på Refshaleøen.', '2025-06-18', '12.615357293147026', '55.692890122188075'),
 ('d29cd622-1927-475b-9e84-5dfc76f89e90', 'Distortion Festival', 'Den Røde Plads, Nørrebro', 280.00, '3.webp', 'Den årlige Distortion Festival fejrer Københavns natteliv med et væld af musik, kunst og gadefester. Over hele byen samles folk til en festival, der kombinerer den bedste feststemning med fantastisk musik.', '2025-06-04', '12.542486754981807', '55.69971633974018'),
-('e0a33d1f-731b-47da-a10e-7dfd9d76e2cf', 'Kaytranada: Timeless Tour', 'K.B. Hallen, Frederiksberg', 595.95, '2.webp', 'Den GRAMMY-vindende DJ og producer Kaytranada er klar til at levere en uforglemmelig live oplevelse med sin “Timeless Tour”. Oplev hans mix af hiphop, R&B og elektronisk musik i K.B. Hallen.', '2025-04-30', '12.494834075221382', '55.67767309214156'),
-('26658a06-c2f7-4e23-893b-296d5c7261b5', 'Roskilde Festival 2025', 'Festivalpladsen, Roskilde', 2400.00, '6.webp', 'Oplev en af Europas største musikfestivaler, Roskilde Festival. Denne festival tilbyder et varieret lineup, der spænder over alle musikgenrer, fra rock til elektronisk, med tusindvis af festivalgæster og en unik festivalstemning.', '2025-06-28', '12.078975029472053', '55.62232398100159');
+('26658a06-c2f7-4e23-893b-296d5c7261b5', 'Grøn Koncert 2025', 'Valbyparken, Valby', 395.00, '6.webp', 'Køb billet til Grøn i Valby og bliv en del af sommerens bedste koncert – for hele Danmark. Tuborg og Muskelsvindfonden arrangerer Grøn. Alt overskuddet går til Muskelsvindfonden.', '2025-07-27', '12.520656912348965', '55.64176618773134'),
+('e0a33d1f-731b-47da-a10e-7dfd9d76e2cf', 'Kaytranada: Timeless Tour', 'K.B. Hallen, Frederiksberg', 595.95, '2.webp', 'Den GRAMMY-vindende DJ og producer Kaytranada er klar til at levere en uforglemmelig live oplevelse med sin “Timeless Tour”. Oplev hans mix af hiphop, R&B og elektronisk musik i K.B. Hallen.', '2025-04-30', '12.494834075221382', '55.67767309214156');
 
 --
 -- Begrænsninger for dumpede tabeller
