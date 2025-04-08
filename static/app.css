@@ -97,6 +97,7 @@ form{
     }
 }
 
+/*------------------------------------------------*/
 main#index{
     width: 100%;
     display: grid;
@@ -108,7 +109,7 @@ main#index{
         height: calc(100vh - 4rem);
     }
 
-    #right{
+    #left{
         flex-direction: column;
         display: flex;
         width: 100%;
@@ -119,6 +120,15 @@ main#index{
             margin: auto;
             margin-top: 1rem;
         }
+    }
+
+    #right{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        padding-left: 50%;
+        padding-bottom: 5rem;
+
     }
 
     #items{          
@@ -141,6 +151,10 @@ main#index{
         }
     }
 }
+
+
+
+/*------------------------------------------------*/
 
 main#signup{
     height: 100%;
@@ -186,6 +200,7 @@ main#login{
         opacity: 0;
     }
 }
+
 
 
 
