@@ -11,21 +11,6 @@ body{
     overflow-x: hidden;
 }
 
-#toast_container{
-    position: fixed; top: 1rem; left: 0;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    z-index: 20;
-    pointer-events: none;
-}
-
-.toast{
-    margin: auto;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-}
-
 .ok{
     color: white;
     background: green;
@@ -42,10 +27,14 @@ nav{
     display: flex;
     align-items: center;
     position: fixed; top: 0; left: 0;
-    background-color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(61,52,144,1) 70%, rgba(117,52,144,1) 100%);
     padding: 0 0.5rem;
     z-index: 10;
+
     a{
+        color: white;
+        margin: 0 0.5rem;
         text-decoration: none;
     }
     div{
@@ -155,6 +144,20 @@ main#login{
     form{
         width: 30%;
         margin: auto;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(61,52,144,1) 70%, rgba(117,52,144,1) 100%);
+    text-align: center;
+
+    p {
+        color: white;
     }
 }
 

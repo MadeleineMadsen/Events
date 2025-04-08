@@ -15,7 +15,7 @@ def show_index():
         cursor.execute(q, (2, 0))
         rows = cursor.fetchall()
         ic(rows)
-        return render_template("page_index.html", title="Fleas 4 You", rows=rows)
+        return render_template("page_index.html", title="Events", rows=rows)
     except Exception as ex:
         ic(ex)
     finally:
@@ -26,7 +26,7 @@ def show_index():
 @app.get("/signup")
 def show_signup():
     try:
-        return render_template("page_signup.html", title="Fleas Signup", x=x)
+        return render_template("page_signup.html", title="Events Signup", x=x)
     except Exception as ex:
         ic(ex)
     finally:
@@ -36,7 +36,7 @@ def show_signup():
 @app.get("/login")
 def show_login():
     try:
-        return render_template("page_login.html", title="Fleas Login", x=x)
+        return render_template("page_login.html", title="Events Login", x=x)
     except Exception as ex:
         ic(ex)
     finally:
