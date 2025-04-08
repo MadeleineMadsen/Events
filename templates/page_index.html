@@ -6,9 +6,12 @@ mix-top="body"
 mix-hide=".page" mix-show="#index"
 mix-title="{{ title | default('Company') }}"
 >
-    {% include "_nav.html" %}
+{% include "_nav.html" %}
+    
+<div id="layout-row">
     <div id="map"></div>
-    <div id="right">
+
+    <div id="left">
         <div id="items">
             {% for row in rows %}
                 {% include "_item.html" %}
@@ -16,6 +19,18 @@ mix-title="{{ title | default('Company') }}"
         </div> 
         {% include "_button_get_more_items.html" %} 
     </div>
+
+    <div id="right">
+        <div id="items">
+            {% for row in rows %}
+                {% include "_item.html" %}
+            {% endfor %}              
+        </div> 
+    </div>
+</div>
 </main>
 
 {% include "_footer.html" %}
+
+
+
