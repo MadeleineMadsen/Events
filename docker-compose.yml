@@ -17,7 +17,7 @@ services:
     container_name: fulldemo_mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: company
+      MYSQL_DATABASE: events
     volumes:
       - mysql_data:/var/lib/mysql
     ports:
